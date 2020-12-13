@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     'preact',
     'eslint:recommended',
-    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
@@ -56,10 +55,5 @@ module.exports = {
     'prefer-const': 'warn',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'prettier/prettier': 'warn',
-  },
-  settings: {
-    react: {
-      version: 'detect',
-    },
   },
 };
