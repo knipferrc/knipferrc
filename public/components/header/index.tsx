@@ -1,32 +1,25 @@
 import { FunctionComponent } from 'preact';
+import classnames from 'classnames/bind';
 
 import styles from './style.module.css';
 
+const cx = classnames.bind(styles);
+
 export const Header: FunctionComponent = () => {
   return (
-    <nav class={styles.nav}>
-      <ul class={styles.navItems}>
-        <li>
-          <a class={styles.navLink} href="/">
-            Home
-          </a>
-        </li>
-        <li>
-          <a class={styles.navLink} href="/experience">
-            Experience
-          </a>
-        </li>
-        <li>
-          <a class={styles.navLink} href="/projects">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a class={styles.navLink} href="/contact">
-            Contact
-          </a>
-        </li>
-      </ul>
+    <nav class={cx('nav')}>
+      <a class={cx('nav-link')} href="/">
+        Home
+      </a>
+      <a class={cx('nav-link')} href="/experience">
+        Experience
+      </a>
+      <a class={cx('nav-link')} href="/projects">
+        Projects
+      </a>
+      <a class={cx('nav-link')} href="/contact">
+        Contact
+      </a>
     </nav>
   );
 };

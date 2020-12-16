@@ -28,6 +28,7 @@
     "react-dom": "preact/compat"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "preact-iso": "^0.2.0"
   },
   "devDependencies": {
