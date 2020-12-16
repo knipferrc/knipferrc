@@ -1,9 +1,11 @@
 import { FunctionComponent } from 'preact';
 
-export const Contact: FunctionComponent = () => {
+const Contact: FunctionComponent = () => {
   return (
     <>
       <h1>Contact</h1>
     </>
   );
 };
+
+export default Contact;

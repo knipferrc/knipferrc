@@ -1,9 +1,11 @@
 import { FunctionComponent } from 'preact';
 
-export const Experience: FunctionComponent = () => {
+const Experience: FunctionComponent = () => {
   return (
     <>
       <h1>Experience</h1>
     </>
   );
 };
+
+export default Experience;
