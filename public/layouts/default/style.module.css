@@ -1,0 +1,24 @@
+.nav {
+  background: royalblue;
+  height: 65px;
+  width: 100%;
+}
+
+.navItems {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navLink {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}

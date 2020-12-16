@@ -1,7 +1,7 @@
 import hydrate from 'preact-iso/hydrate';
 import { LocationProvider, Router } from 'preact-iso/router';
 import { ErrorBoundary } from 'preact-iso/lazy';
-import { FunctionComponent, h } from 'preact';
+import { FunctionComponent } from 'preact';
 
 import { Home } from './pages/home';
 import { NotFound } from './pages/_404.js';

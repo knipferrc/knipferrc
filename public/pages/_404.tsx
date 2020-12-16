@@ -1,4 +1,4 @@
-import { h, FunctionComponent } from 'preact';
+import { FunctionComponent } from 'preact';
 
 export const NotFound: FunctionComponent = () => (
   <section>
