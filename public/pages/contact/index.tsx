@@ -9,7 +9,7 @@ const Contact: FunctionComponent = () => {
   return (
     <>
       <section class={cx('container')}>
-        <h1 class={cx('header')}>Find me at:</h1>
+        <h1 class={cx('header')}>Hit me up:</h1>
         <ul class={cx('contact-list')}>
           <li class={cx('list-item')}>
             <svg
