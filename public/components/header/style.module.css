@@ -11,15 +11,24 @@
 }
 
 .nav-link {
-  margin-left: 5px;
-  margin-right: 5px;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  border-right: 3px solid #fff;
-  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   font-size: 14px;
+  height: 20px;
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+}
+
+.separator {
+  height: 20px;
+  width: 3px;
+  background: #fff;
 }
 
 .nav-link:last-child {
@@ -29,5 +38,12 @@
 @media only screen and (min-width: 992px) {
   .nav-link {
     font-size: 1.3em;
+    height: 30px;
+  }
+
+  .separator {
+    height: 30px;
+    width: 3px;
+    background: #fff;
   }
 }
