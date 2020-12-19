@@ -6,6 +6,7 @@ import { FunctionComponent } from 'preact';
 import { Home } from './pages/home';
 import { NotFound } from './pages/_404.js';
 import { Header } from './components/header';
+import { Video } from './components/video';
 
 const Contact = lazy(() => import('./pages/contact'));
 const Experience = lazy(() => import('./pages/experience'));
@@ -16,6 +17,7 @@ export const App: FunctionComponent = () => {
     <LocationProvider>
       <div class="app">
         <Header />
+        <Video />
         <ErrorBoundary>
           <Router>
             <Home path="/" />
