@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100% - 65px);
+  position: relative;
+}
+
+.heading {
+  color: #fff;
+  font-size: 1.6em;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.jobs-container {
+  padding: 20px;
+}
+
+.job-card {
+  background: #000;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.subheader {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #fff;
+  margin: 5px 0px;
+}
