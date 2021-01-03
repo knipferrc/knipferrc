@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  top: 10px;
+  top: 20px;
   z-index: 10;
 }
 

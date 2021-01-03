@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.heading {
+  color: #fff;
+  font-size: 1.5em;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.projects-container {
+  padding: 20px;
+}
+
+.project-card {
+  background: #000;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.subheader {
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.app-link {
+  color: #fff;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #fff;
+  margin: 5px 0px;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 992px) {
+  .heading {
+    font-size: 2em;
+  }
+
+  .subheader {
+    font-size: 1.3em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+}
